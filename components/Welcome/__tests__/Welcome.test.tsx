@@ -6,6 +6,6 @@ describe('Welcome component', () => {
   it('should render', () => {
     render(<Welcome />);
 
-    expect(screen.getByRole('heading')).toHaveTextContent(/world/i);
+    expect(screen.getByRole('heading')).toHaveTextContent(/welcome/i);
   });
 });
